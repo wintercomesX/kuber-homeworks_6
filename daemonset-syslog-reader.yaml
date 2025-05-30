@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: syslog-reader
+spec:
+  selector:
+    matchLabels:
+      app: syslog-reader
+  template:
+    metadata:
+      labels:
+        app: syslog-reader
+    spec:
+      hostPID: true
+      containers:
+        - name: multitool
+          image: busybox
+          command: ["/bin/sh", "-c"]
+          args:
+            - |
+              echo "Reading /var/log/syslog:"
+              tail -f /var/log/syslog
+          volumeMounts:
+            - name: syslog
+              mountPath: /var/log
+              readOnly: true
+      volumes:
+        - name: syslog
+          hostPath:
+            path: /var/log
+            type: Directory
