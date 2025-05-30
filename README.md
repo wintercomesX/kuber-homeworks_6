@@ -2,10 +2,10 @@
 
 ## 
 
-![k8s](https://github.com/wintercomesX/kuber-homeworks_5/blob/main/kube5.PNG)
+![k8s](https://github.com/wintercomesX/kuber-homeworks_6/blob/main/kube6.PNG)
 
-![k8s](https://github.com/wintercomesX/kuber-homeworks_5/blob/main/kube5.1.PNG)
+![k8s](https://github.com/wintercomesX/kuber-homeworks_6/blob/main/kube6.1.PNG)
 
-![k8s](https://github.com/wintercomesX/kuber-homeworks_5/blob/main/kube5.2.PNG)
+![k8s](https://github.com/wintercomesX/kuber-homeworks_6/blob/main/kube6.2.PNG)
 
-![k8s](https://github.com/wintercomesX/kuber-homeworks_5/blob/main/kube5.3.PNG)
+![k8s](https://github.com/wintercomesX/kuber-homeworks_6/blob/main/kube6.3.PNG)
